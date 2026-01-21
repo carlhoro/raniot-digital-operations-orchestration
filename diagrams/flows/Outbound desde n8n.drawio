@@ -1,62 +1,72 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.2">
   <diagram name="Página-1" id="0N4BqCH6p0r26YseScFN">
-    <mxGraphModel dx="1426" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NIneqoHk0HVNzLJa1qwn-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;strokeWidth=3;" value="&lt;span style=&quot;font-family: &amp;quot;Recursive Variable&amp;quot;, arial, sans-serif; font-size: 14px; font-weight: 300; text-wrap-mode: nowrap; background-color: rgb(249, 249, 251);&quot;&gt;Capa de Orquestación&lt;/span&gt;" vertex="1">
-          <mxGeometry height="220" width="410" x="100" y="140" as="geometry" />
+        <mxCell id="NIneqoHk0HVNzLJa1qwn-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;strokeWidth=3;" value="&lt;span style=&quot;font-family: &amp;quot;Recursive Variable&amp;quot;, arial, sans-serif; font-size: 14px; font-weight: 300; text-wrap-mode: nowrap; background-color: rgb(249, 249, 251);&quot;&gt;Orchestration&lt;/span&gt;" vertex="1">
+          <mxGeometry height="210" width="410" x="60" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="NIneqoHk0HVNzLJa1qwn-2" parent="NIneqoHk0HVNzLJa1qwn-1" style="whiteSpace=wrap;html=1;" value="n8n" vertex="1">
-          <mxGeometry height="40" width="100" x="30" y="60" as="geometry" />
+        <mxCell id="NIneqoHk0HVNzLJa1qwn-2" parent="NIneqoHk0HVNzLJa1qwn-1" style="whiteSpace=wrap;html=1;fontSize=16;" value="n8n" vertex="1">
+          <mxGeometry height="45" width="100" x="30" y="40" as="geometry" />
         </mxCell>
         <mxCell id="NIneqoHk0HVNzLJa1qwn-4" parent="NIneqoHk0HVNzLJa1qwn-1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Recursive Variable&amp;quot;, arial, sans-serif; font-size: 14px; font-weight: 300; text-wrap-mode: nowrap; background-color: rgb(249, 249, 251);&quot;&gt;Extensiones y Capacidades&lt;/span&gt;" vertex="1">
-          <mxGeometry height="90" width="270" x="30" y="120" as="geometry" />
+          <mxGeometry height="90" width="370" x="20" y="110" as="geometry" />
         </mxCell>
         <mxCell id="NIneqoHk0HVNzLJa1qwn-5" parent="NIneqoHk0HVNzLJa1qwn-4" style="whiteSpace=wrap;html=1;" value="IA/LLM" vertex="1">
-          <mxGeometry height="40" width="100" x="20" y="40" as="geometry" />
+          <mxGeometry height="40" width="100" x="10" y="40" as="geometry" />
         </mxCell>
         <mxCell id="NIneqoHk0HVNzLJa1qwn-6" parent="NIneqoHk0HVNzLJa1qwn-4" style="whiteSpace=wrap;html=1;" value="APIs Externas" vertex="1">
-          <mxGeometry height="40" width="100" x="150" y="40" as="geometry" />
+          <mxGeometry height="40" width="100" x="135" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="NIneqoHk0HVNzLJa1qwn-7" edge="1" parent="NIneqoHk0HVNzLJa1qwn-1" source="NIneqoHk0HVNzLJa1qwn-2" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="NIneqoHk0HVNzLJa1qwn-4" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="165" y="100" />
-            </Array>
-            <mxPoint x="200" y="340" as="sourcePoint" />
-            <mxPoint x="250" y="290" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="j1HEU24NQlZ0lrwA0T3D-5" parent="NIneqoHk0HVNzLJa1qwn-4" style="whiteSpace=wrap;html=1;" value="APIs Externas" vertex="1">
+          <mxGeometry height="40" width="100" x="260" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="NIneqoHk0HVNzLJa1qwn-20" parent="NIneqoHk0HVNzLJa1qwn-1" style="whiteSpace=wrap;html=1;" value="Nodo salida" vertex="1">
-          <mxGeometry height="30" width="80" x="290" y="65" as="geometry" />
+        <mxCell id="j1HEU24NQlZ0lrwA0T3D-6" edge="1" parent="NIneqoHk0HVNzLJa1qwn-1" source="NIneqoHk0HVNzLJa1qwn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="NIneqoHk0HVNzLJa1qwn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NIneqoHk0HVNzLJa1qwn-20" parent="NIneqoHk0HVNzLJa1qwn-1" style="whiteSpace=wrap;html=1;fontSize=17;" value="handler" vertex="1">
+          <mxGeometry height="45" width="90" x="250" y="40" as="geometry" />
         </mxCell>
         <mxCell id="NIneqoHk0HVNzLJa1qwn-22" edge="1" parent="NIneqoHk0HVNzLJa1qwn-1" source="NIneqoHk0HVNzLJa1qwn-2" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NIneqoHk0HVNzLJa1qwn-20" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="250" y="80" />
-            </Array>
-            <mxPoint x="260" y="115" as="sourcePoint" />
-            <mxPoint x="420" y="90" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="260" y="95" as="sourcePoint" />
+            <mxPoint x="420" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1HEU24NQlZ0lrwA0T3D-3" edge="1" parent="NIneqoHk0HVNzLJa1qwn-1" source="NIneqoHk0HVNzLJa1qwn-2" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="NIneqoHk0HVNzLJa1qwn-20" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="210" y="80" as="sourcePoint" />
+            <mxPoint x="370" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NIneqoHk0HVNzLJa1qwn-8" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;div style=&quot;line-height: 30%;&quot;&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 30%;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 30%;&quot;&gt;VERSION 1.0&lt;/h1&gt;&lt;p&gt;Revisado por: Ing. Carlos A Hoyos&lt;/p&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="200" x="590" y="40" as="geometry" />
+          <mxGeometry height="70" width="200" x="60" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="NIneqoHk0HVNzLJa1qwn-9" parent="1" style="swimlane;whiteSpace=wrap;html=1;strokeWidth=3;" value="&lt;span style=&quot;font-family: &amp;quot;Recursive Variable&amp;quot;, arial, sans-serif; font-size: 14px; font-weight: 300; text-wrap-mode: nowrap; background-color: rgb(249, 249, 251);&quot;&gt;Destinos&lt;/span&gt;" vertex="1">
-          <mxGeometry height="140" width="160" x="590" y="140" as="geometry" />
+        <mxCell id="NIneqoHk0HVNzLJa1qwn-9" parent="1" style="swimlane;whiteSpace=wrap;html=1;strokeWidth=3;" value="&lt;span style=&quot;font-family: &amp;quot;Recursive Variable&amp;quot;, arial, sans-serif; font-size: 14px; font-weight: 300; text-wrap-mode: nowrap; background-color: rgb(249, 249, 251);&quot;&gt;Actions&lt;/span&gt;" vertex="1">
+          <mxGeometry height="210" width="190" x="580" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="NIneqoHk0HVNzLJa1qwn-13" parent="NIneqoHk0HVNzLJa1qwn-9" style="whiteSpace=wrap;html=1;" value="WhatsApp_API" vertex="1">
+        <mxCell id="NIneqoHk0HVNzLJa1qwn-13" parent="NIneqoHk0HVNzLJa1qwn-9" style="whiteSpace=wrap;html=1;" value="meta" vertex="1">
           <mxGeometry height="40" width="100" x="20" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="NIneqoHk0HVNzLJa1qwn-15" parent="NIneqoHk0HVNzLJa1qwn-9" style="whiteSpace=wrap;html=1;" value="Microsoft 365" vertex="1">
-          <mxGeometry height="40" width="100" x="20" y="35" as="geometry" />
+        <mxCell id="NIneqoHk0HVNzLJa1qwn-15" parent="NIneqoHk0HVNzLJa1qwn-9" style="whiteSpace=wrap;html=1;" value="365 copilot" vertex="1">
+          <mxGeometry height="40" width="100" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j1HEU24NQlZ0lrwA0T3D-1" parent="NIneqoHk0HVNzLJa1qwn-9" style="whiteSpace=wrap;html=1;" value="API" vertex="1">
+          <mxGeometry height="40" width="100" x="20" y="140" as="geometry" />
         </mxCell>
         <mxCell id="NIneqoHk0HVNzLJa1qwn-23" edge="1" parent="1" source="NIneqoHk0HVNzLJa1qwn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NIneqoHk0HVNzLJa1qwn-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NIneqoHk0HVNzLJa1qwn-24" edge="1" parent="1" source="NIneqoHk0HVNzLJa1qwn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NIneqoHk0HVNzLJa1qwn-13">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j1HEU24NQlZ0lrwA0T3D-2" edge="1" parent="1" source="NIneqoHk0HVNzLJa1qwn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="j1HEU24NQlZ0lrwA0T3D-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="230" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
